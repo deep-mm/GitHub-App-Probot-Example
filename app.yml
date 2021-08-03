@@ -1,0 +1,32 @@
+default_events:
+  - issues
+
+default_permissions:
+  # Repository creation, deletion, settings, teams, and collaborators.
+  # https://developer.github.com/v3/apps/permissions/#permission-on-administration
+  administration: write
+
+  # Issues and related comments, assignees, labels, and milestones.
+  # https://developer.github.com/v3/apps/permissions/#permission-on-issues
+  issues: write
+
+  # Search repositories, list collaborators, and access repository metadata.
+  # https://developer.github.com/v3/apps/permissions/#metadata-permissions
+  metadata: read
+
+  # Organization members and teams.
+  # https://developer.github.com/v3/apps/permissions/#permission-on-members
+  members: write
+
+# The name of the GitHub App. Defaults to the name specified in package.json
+name: Create New Repo App
+
+# The homepage of your GitHub App.
+# url: https://github.com/microsoftdevopsdojo/dojo-management/create-new-repo-app
+
+# A description of the GitHub App.
+description: This app is used to create new repository in the MicrosoftDevOpsDojo organization
+
+# Set to true when your GitHub App is available to the public or false when it is only accessible to the owner of the app.
+# Default: true
+public: false

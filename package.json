@@ -1,0 +1,32 @@
+{
+  "name": "create-new-repo-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A GitHub App built with Probot to create new repository",
+  "author": "Deep Mehta <deep.mm@somaiya.edu>",
+  "license": "ISC",
+  "homepage": "https://github.com/deep-mm",
+  "keywords": [
+    "probot",
+    "github",
+    "probot-app"
+  ],
+  "scripts": {
+    "start": "probot run ./app.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@probot/adapter-azure-functions": "^1.0.12"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.2.3",
+    "nock": "^13.1.1",
+    "smee-client": "^1.2.2",
+    "uvu": "^0.5.1"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
