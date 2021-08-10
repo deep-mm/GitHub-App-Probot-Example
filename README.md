@@ -12,3 +12,5 @@ To have the app running on Azure function app, 3 app settings needs to be added 
 3. WEBHOOK_SECRET
 
 ![image](https://user-images.githubusercontent.com/29853549/128023424-f3c4bf01-2f41-47c4-bfd7-4af80e6e5f34.png)
+
+Find detailed documentation here: [https://deepmehta.co.in/projects/github-probot-app/](https://deepmehta.co.in/projects/github-probot-app/)
